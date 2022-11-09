@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="initial-scale=1,maximum-scale=1, user-scalable=0"name="viewport" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
+	</script>
+</head>
+<body>
+  <div class ="wrapper">
+    <header>
+      <img src = "logo.jpg">
+      <h1 class = "head" style = "color:beige; font-style: oblique;">Library Management System</h1>
+      <h2 class = "home" style="color:white">Home</h2>
+      
+
+    </header>
+    <section>
+      <div class="table">
+        <h2 class = "title">List of Books
+        </h2>
+        
+        <table id="dt-filter-select" class="table" cellspacing="0" width="100%">
+          <thead>
+            <tr>
+              <th class="th-sm">Title
+              </th>
+              <th class="th-sm">Author
+              </th>
+              <th class="th-sm">Subject
+              </th>
+              <th class="th-sm">Published date
+              </th>
+              <th class="th-sm">Count
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Atlantic Monthly</td>
+              <td>Various</td>
+              <td>Art instruction</td>
+              <td>2011/04/25</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <td>La Biblia Libro Por Libro</td>
+              <td>Various</td>
+              <td>Art instruction</td>
+              <td>2011/07/25</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Lippincott\'s Magazine of Popular Literature and Science</td>
+              <td>Various</td>
+              <td>Art instruction</td>
+              <td>2009/01/12</td>
+              <td>41</td>
+            </tr>
+            <tr>
+              <td>El Expositor Biblico</td>
+              <td>Various</td>
+              <td>Art instruction</td>
+              <td>2012/03/29</td>
+              <td>57</td>
+            </tr>
+            <tr>
+              <td>Pride and Prejudice</td>
+              <td>Jane Austen</td>
+              <td>Film</td>
+              <td>2008/11/28</td>
+              <td>12</td>
+            </tr>
+            <tr>
+        
+              <td>Crime and Punishment</td>
+              <td>Fyodor Dostoevsky</td>
+              <td>Film</td>
+              <td>2012/12/02</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>Hamlet</td>
+              <td>William Shakespeare</td>
+              <td>Humor</td>
+              <td>2012/08/06</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Integration Specialist</td>
+              <td>William Shakespeare</td>
+              <td>Horror</td>
+              <td>2010/10/14</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>One Hundred Years of Solitude</td>
+              <td>Fyodor DOstoevsky</td>
+              <td>Information Technology</td>
+              <td>2009/09/15</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>Anna Karenina</td>
+              <td>William Shakespeare</td>
+              <td>Mystery and detective stories</td>
+              <td>2008/12/13</td>
+              <td>43</td>
+            </tr>
+            <tr>
+              <td>The Odyssey</td>
+              <td>Fyodor DOstoevsky</td>
+              <td>Horror</td>
+              <td>2008/12/19</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>The Stranger</td>
+              <td>William Shakespeare</td>
+              <td>Mystery and detective stories</td>
+              <td>2013/03/03</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>The Brothers Karamazov</td>
+              <td>Fyodor DOstoevsky</td>
+              <td>Horror</td>
+              <td>2008/10/16</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Great Expectations</td>
+              <td>William Shakespeare</td>
+              <td>Literature</td>
+              <td>2012/12/18</td>
+              <td>10</td>
+            </tr>
+            <tr>
+        
+              <td>Lolita</td>
+              <td>Virginia Woolf</td>
+              <td>Horror</td>
+              <td>2010/03/17</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>The Old Man and the Sea</td>
+              <td>Virginia Woolf</td>
+              <td>Literature</td>
+              <td>2012/11/27</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>War and Peace</td>
+              <td>Toni Morrison</td>
+              <td>Literature</td>
+              <td>2010/06/09</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td>Don Quixote </td>
+              <td>Toni Morrison</td>
+              <td>Mystery and detective stories</td>
+              <td>2009/04/10</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>The Iliad</td>
+              <td>Toni Morrison</td>
+              <td>Literature</td>
+              <td>2012/10/13</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>Madame Bovary</td>
+              <td>Chinua Achebe</td>
+              <td>Anthropology</td>
+              <td>2012/09/26</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td>The Trial</td>
+              <td>Chinua Achebe</td>
+              <td>Literature</td>
+              <td>2011/09/03</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>The Divine Comedy</td>
+              <td>Chinua Achebe</td>
+              <td>Mystery and detective stories</td>
+              <td>2009/06/25</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>Moby-Dick or, the Whale</td>
+              <td>Nikos Kazantzakis</td>
+              <td>Science Fiction</td>
+              <td>2011/12/12</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>King Lear</td>
+              <td>Nikos Kazantzakis</td>
+              <td>Short Stories</td>
+              <td>2010/09/20</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>Love in the Time of Cholera</td>
+              <td>Nikos Kazantzakis</td>
+              <td>Science Fiction</td>
+              <td>2009/10/09</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>The Complete Fairy Tales</td>
+              <td>Anonymous</td>
+              <td>Short Stories</td>
+              <td>2010/12/22</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Othello</td>
+              <td>Anonymous</td>
+              <td>Science Fiction</td>
+              <td>2010/11/14</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>The Arabian Nights</td>
+              <td>Ralph Ellison</td>
+              <td>Short Stories</td>
+              <td>2011/06/07</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>The Sound and the Fury</td>
+              <td>Anonymous</td>
+              <td>Anthropology</td>
+              <td>2010/03/11</td>
+              <td>54</td>
+            </tr>
+            <tr>
+              <td>The Canterbury Tales</td>
+              <td>Ralph Ellison</td>
+              <td>Short Stories</td>
+              <td>2011/08/14</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Ulysses</td>
+              <td>Ralph Ellison</td>
+              <td>Anthropology</td>
+              <td>2011/06/02</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <td>Gulliver's Travels: Travels into Several Remote Nations of the World.</td>
+              <td>Walt Whitman</td>
+              <td>Short Stories</td>
+              <td>2009/10/22</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>The Idiot</td>
+              <td>Walt Whitman</td>
+              <td>Anthropology</td>
+              <td>2011/05/07</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>The Collected Tales of Edgar Allan Poe</td>
+              <td>Fernando Pessoa</td>
+              <td>Social Life and Customs</td>
+              <td>2008/10/26</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>PFaust, First Part</td>
+              <td>Fernando Pessoa</td>
+              <td>Social Life and Customs</td>
+              <td>2011/03/09</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>To the Lighthouse</td>
+              <td>Fernando Pessoa</td>
+              <td>Social Life and Customs</td>
+              <td>2009/12/09</td>
+              <td>24</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Title
+              </th>
+              <th>Author
+              </th>
+              <th>Subject
+              </th>
+              <th>Published Date
+              </th>
+              <th>Count
+              </th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <div class="foot" role="navigation">
+      <h2 style="color:aliceblue">Email: Librarymanagement@gmail.com</h2>
+      <h2 style="color:aliceblue">Phone no: 8787123456</h2>
+      </div>
+    </footer>
+    
+  </div>
+  
+	
+	<script>
+		$(document).ready(function () {
+  $('#dt-filter-select').dataTable({
+
+    initComplete: function () {
+      this.api().columns().every( function () {
+          var column = this;
+          var select = $('<select  class="browser-default custom-select form-control-sm"><option value="" selected>Search</option></select>')
+              .appendTo( $(column.footer()).empty() )
+              .on( 'change', function () {
+                  var val = $.fn.dataTable.util.escapeRegex(
+                      $(this).val()
+                  );
+
+                  column
+                      .search( val ? '^'+val+'$' : '', true, false )
+                      .draw();
+              } );
+
+          column.data().unique().sort().each( function ( d, j ) {
+              select.append( '<option value="'+d+'">'+d+'</option>' )
+          } );
+      } );
+  }
+  });
+});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+[
+  {
+    "title": "The Atlantic Monthly",
+    "author": "Various",
+    "subject": "Humor",
+    "grade": 3,
+    "published-date": "2021-01-01"
+  },
+  {
+    "title": "La Biblia Libro Por Libro",
+    "author": "Various",
+    "subject": "Film",
+    "grade": 3,
+    "published-date": "2021-01-01"
+  },
+  {
+    "title": "Lippincott's Magazine of Popular Literature and Science",
+    "author": "Various",
+    "subject": "English",
+    "grade": 3,
+    "published-date": "2021-01-01"
+  },
+  {
+    "title": "El Expositor Biblico",
+    "author": "Jane Austen",
+    "subject": "Film",
+    "grade": 4,
+    "published-date": "2021-02-01"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Fyodor Dostoevsky",
+    "subject": "Humor",
+    "grade": 4,
+    "published-date": "2021-02-01"
+  },
+  {
+    "title": "Hamlet",
+    "author": "Fyodor Dostoevsky",
+    "subject": "Horror",
+    "grade": 4,
+    "published-date": "2021-02-01"
+  },
+  {
+    "title": "Integration Specialist",
+    "author": "Fyodor Dostoevsky",
+    "subject": "Horror",
+    "grade": 5,
+    "published-date": "2021-03-01"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "William Shakespeare",
+    "subject": "Horror",
+    "grade": 5,
+    "published-date": "2021-03-01"
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "William Shakespeare",
+    "subject": "Information Technology",
+    "grade": 5,
+    "published-date": "2021-03-01"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Fyodor DOstoevsky",
+    "subject": "Art instruction",
+    "grade": 6,
+    "published-date": "2021-04-01"
+  },
+  {
+    "title": "The Stranger",
+    "author": "Fyodor DOstoevsky",
+    "subject": "Information Technology",
+    "grade": 6,
+    "published-date": "2021-04-01"
+  },
+  {
+    "title": "Grow",
+    "author": "Fyodor DOstoevsky",
+    "subject": "Information Technology",
+    "grade": 6,
+    "published-date": "2021-04-01"
+  },
+  {
+    "title": "Mystery island",
+    "author": "Fyodor DOstoevsky",
+    "subject": "Science-fiction",
+    "grade": 7,
+    "published-date": "2021-05-01"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "William Shakespeare",
+    "subject": "Information Technology",
+    "grade": 7,
+    "published-date": "2021-05-01"
+  },
+  {
+    "title": "Great Expectations",
+    "author": "William Shakespeare",
+    "subject": "Science-fiction",
+    "grade": 7,
+    "published-date": "2021-05-01"
+  },
+  {
+    "title": "Lolita",
+    "author": "William Shakespeare",
+    "subject": "Science-fiction",
+    "grade": 8,
+    "published-date": "2021-06-01"
+  },
+  {
+    "title": "Don Quixote ",
+    "author": "William Shakespeare",
+    "subject": "Science-fiction",
+    "grade": 8,
+    "published-date": "2021-06-01"
+  },
+  {
+    "title": "The Iliad",
+    "author": "Mystery and detective stories",
+    "subject": "Anthropology",
+    "grade": 8,
+    "published-date": "2021-06-01"
+  },
+  {
+    "title": "Madame Bovary",
+    "author": "Virginia Woolf",
+    "subject": "Science-fiction",
+    "grade": 9,
+    "published-date": "2021-07-01"
+  },
+  {
+    "title": "The Trial",
+    "author": "Virginia Woolf",
+    "subject": "Mystery and detective stories",
+    "grade": 9,
+    "published-date": "2021-07-01"
+  },
+  {
+    "title": "The Divine Comedy",
+    "author": "Virginia Woolf",
+    "subject": "Literature",
+    "grade": 9,
+    "published-date": "2021-07-01"
+  },
+  {
+    "title": "Moby-Dick or, the Whale",
+    "author": "Virginia Woolf",
+    "subject": "Mystery and detective stories",
+    "grade": 10,
+    "published-date": "2021-08-01"
+  },
+  {
+    "title": "King Lear",
+    "author": "Toni Morrison",
+    "subject": "Literature",
+    "grade": 10,
+    "published-date": "2021-08-01"
+  },
+  {
+    "title": "Love in the Time of Cholera",
+    "author": "Fernando Pessoa",
+    "subject": "Anthropology",
+    "grade": 10,
+    "published-date": "2021-08-01"
+  },
+  {
+    "title": "The Complete Fairy Tales",
+    "author": "Toni Morrison",
+    "subject": "Literature",
+    "grade": 10,
+    "published-date": "2021-08-01"
+  },
+  {
+    "title": "Othello",
+    "author": "Toni Morrison",
+    "subject": "Anthropology",
+    "grade": 10,
+    "published-date": "2021-09-01"
+  },
+  {
+    "title": "The Arabian Nights",
+    "author": "Chinua Achebe",
+    "subject": "Literature",
+    "grade": 10,
+    "published-date": "2021-09-01"
+  },
+  {
+    "title": "The Sound and the Fury",
+    "author": "Walt Whitman",
+    "subject": "Short Stories",
+    "grade": 10,
+    "published-date": "2021-09-01"
+  },
+  {
+    "title": "The Canterbury Tales",
+    "author": "Chinua Achebe",
+    "subject": "Anthropology",
+    "grade": 10,
+    "published-date": "2021-09-01"
+  },
+  {
+    "title": "Ulysses",
+    "author": "Ralph Ellison",
+    "subject": "Short Stories",
+    "grade": 10,
+    "published-date": "2021-09-01"
+  },
+  {
+    "title": "Gulliver's Travels: Travels into Several Remote Nations of the World.",
+    "author": "Chinua Achebe",
+    "subject": "Anthropology",
+    "grade": 11,
+    "published-date": "2021-10-01"
+  },
+  {
+    "title": "The Idiot",
+    "author": "Nikos Kazantzakis",
+    "subject": "Short Stories",
+    "grade": 11,
+    "published-date": "2021-10-01"
+  },
+  {
+    "title": "The Collected Tales of Edgar Allan Poe",
+    "author": "Nikos Kazantzakis",
+    "subject": "Social Life and Customs",
+    "grade": 11,
+    "published-date": "2021-10-01"
+  },
+  {
+    "title": "PFaust, First Part",
+    "author": "Nikos Kazantzakis",
+    "subject": "Short Stories",
+    "grade": 12,
+    "published-date": "2021-10-01"
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Anonymous",
+    "subject": "Social Life and Customs",
+    "grade": 12,
+    "published-date": "2021-10-01"
+  }
+]
